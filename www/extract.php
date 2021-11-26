@@ -19,9 +19,9 @@ $xml->registerXPathNamespace('t', $ns['tfd']);
 echo "<h1>".  "Emisor:". "</h1>";
 foreach ($xml->xpath('//cfdi:Comprobante//cfdi:Emisor') as $Emisor){ 
     print_r( "Nombre: ". $Emisor['Nombre']) ; 
-    echo "<br />"; 
+    echo "<br/>"; 
     print_r( "RFC: ". $Emisor['Rfc']) ; 
-    echo "<br />"; 
+    echo "<br/>"; 
 
  } 
  echo "<h1>".  "Fecha de Timbrado fiscal:". "</h1>";
@@ -29,11 +29,21 @@ foreach ($xml->xpath('//cfdi:Comprobante//cfdi:Emisor') as $Emisor){
  foreach ($xml->xpath('//cfdi:Comprobante//t:TimbreFiscalDigital') as $tfd){ 
    //  print_r( $tfd['UUID']);
     print_r( "UUID: ". $tfd['UUID']) ; 
-    echo "<br />"; 
+    echo "<br/>"; 
     print_r( "Fecha de timbrado: ". $tfd['FechaTimbrado']) ; 
     echo "<br />"; 
 
  } 
 
 
+ 
+
 ?>
+
+
+<html>
+   <body>
+   <a class="btn btn-primary" href="index.php">Regresar al inicio</a>
+   </body>
+
+</html>
