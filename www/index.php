@@ -153,8 +153,8 @@ if ($error) {
     </ul>
 
 
-    <a href="<?= 'palindrom.php' ?>">Palindormo </a>
-    <a href="<?= 'Prueba/extract.php' ?>">Ejercicio xml </a>
+    <a href="<?= 'palindrom.php' ?>">Palindormo </a></br>
+    <a href="<?= 'extract.php' ?>">Ejercicio xml </a>
   </div>
 </div>
 
