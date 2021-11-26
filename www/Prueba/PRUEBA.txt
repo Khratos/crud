@@ -1,0 +1,13 @@
+1.Leer el archivo XML y Obtener los atributos: 
+a) del nodo Emisor: Nombre, RFC 
+b) del nodo TimbreFiscalDigital: UUID, fecha de timbrado
+2.Crear en php un formulario que ingresando una palabra determine si es un palindromo(palabras que se leen igual al derecho y al reves) o no 
+3.Crear un pequeño crud
+    -crear base de datos y la conexion a la misma la base puede ser muy simple solo requiero diferentes campos integer varchar enum como requisito
+    -poder insertar ver actualizar y eleiminar el registro 
+    -al ver los registros requiero que tenga paginacion 
+    
+Para dicho fin puedes valerte de las heraamientas como puede ser un framework javascript y bootstrap
+al igual que te pido que tu pagina tenga estilos en css 
+
+estos ejercisios necesito que los subas a un repositorio en github para que yo pueda clonar el proyecto y probar 3en caso de no utilizar un sistema de migraciones necesito que tambien adjuntes la base de datos 
